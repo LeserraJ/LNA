@@ -1,20 +1,71 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
 ---
 
 <Layout title="Leserra's Nursery">
 	<main class="m-0 p-0">
 		<div class="inline-flex border  w-full border-green-500">
-			<h1 class="font-semibold justify-start self-center">Leserra's Nursery</h1>
+			<h1 class="justify-start self-center flex">
+				<a class="  inline-block  place-items-center"href="#">
+					<img  class="  w-20" src="LN.svg" alt="Leserra's Nursery Logo">
+				</a>
+			</h1>
 			<nav class="flex py-5 justify-center w-full border border-red-300">
-				
 				<ul class=" flex  space-x-5 px-2 border border-sky-300">
-					<li>Home</li>
-					<li>About</li>
-					<li>Products</li>
-					<li>Contact</li>
+					<li class="hover:bg-slate-200"><a href="#">Home</a></li>
+					<li class="hover:bg-slate-200"><a href="#">About</a></li>
+					<li class="hover:bg-slate-200"><a href="#">Products</a></li>
+					<li class="hover:bg-slate-200"><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
+		<div>
+			<img src="https://placehold.co/1908x540.png" alt="placeholder image">
+		</div>
+
+
+	<body >
+		<div class="border border-purple-500  flex py-5 my-5">
+			<div class="w-1/2 pl-20 text-center text-4xl self-center border border-yellow-500">
+				<h1 class=" font-bold">About :</h1>
+			</div>
+			<div class=" w-1/2   text-lg border border-cyan-500">
+				<h3 class="font-bold">Our History</h3>
+				<p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+
+
+
+		<div class="border border-orange-500 block w-full  justify-center py-5 my-5">
+			<div class="pl-20 text-center text-4xl self-center border border-yellow-500">
+				<h1 class=" font-bold">Products We Offer:</h1>
+			</div>
+			<div class=" flex text-lg  justify-between border border-cyan-500">
+				<img class="rounded-full" src="https://placehold.co/300x300" alt="placeholder">
+				<img class="rounded-full" src="https://placehold.co/300x300" alt="placeholder">
+				<img class="rounded-full" src="https://placehold.co/300x300" alt="placeholder">
+				<img class="rounded-full" src="https://placehold.co/300x300" alt="placeholder">
+				<img class="rounded-full" src="https://placehold.co/300x300" alt="placeholder">
+			</div>
+		</div>
+
+
+
+
+
+
+		<div class="border border-purple-500  flex py-5 my-5">
+			<div class="w-1/2 pl-20 text-center text-4xl self-center border border-yellow-500">
+				<h1 class=" font-bold">Contact :</h1>
+			</div>
+			<div class=" w-1/2   text-lg border border-cyan-500">
+				<h3 class="font-bold">Title Here</h3>
+				<p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</body>
 	</main>
 </Layout>
